@@ -1,0 +1,11 @@
+.blob {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.blob:nth-child(2) {
+  filter: blur(50px);
+}
