@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     fetch(
-      "https://raw.githubusercontent.com/kocpeel/sciagaFiles/main/chemia/luy.json"
+      "https://raw.githubusercontent.com/kocpeel/sciagaFiles/main/chemia/luty.json"
     )
       .then((response) => response.json())
       .then((data) => setData(data));
