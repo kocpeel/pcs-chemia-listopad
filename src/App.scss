@@ -11,6 +11,9 @@
   gap: 2rem;
   max-height: 90vh;
   overflow-y: auto;
+  div {
+    background-color: #555;
+  }
 }
 
 h1, h2 {
@@ -80,5 +83,4 @@ h1, h2 {
 
 div {
   border-left-color: var(--primary-color);
-  background: gray;
 }
