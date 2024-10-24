@@ -12,7 +12,7 @@
   max-height: 90vh;
   overflow-y: auto;
   div {
-    background-color: #555;
+    background-color: #555 !important;
   }
 }
 
@@ -72,9 +72,7 @@ div {
 }
 
 :root {
-  --primary-color: #3498db;
-  --secondary-color: #e74c3c;
-  --accent-color: #2ecc71;
+  --primary-color: #777;
 }
 
 h1, h2 {
